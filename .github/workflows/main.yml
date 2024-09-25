@@ -3,10 +3,10 @@ name: Playwright Tests
 on:
   # Jeśli będziemy robili pusha z tych branchy, to odpalą się testy
   push:
-    branches: [ main, master ]
+    branches: [ main, master, ci-demo ]
   # Jeśli będziemy robili pull request na tym branchu, odpalą się testy
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, ci-demo ]
   workflow_dispatch:
 jobs:
   test:
