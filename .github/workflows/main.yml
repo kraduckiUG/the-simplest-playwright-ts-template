@@ -7,6 +7,7 @@ on:
   # Jeśli będziemy robili pull request na tym branchu, odpalą się testy
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
 jobs:
   test:
     timeout-minutes: 60
