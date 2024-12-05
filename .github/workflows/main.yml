@@ -1,7 +1,7 @@
 # Nazwa workflow
 name: Playwright Tests
 on:
-  # Jeśli będziemy robili pusha z tych branchy, to odpalą się testy
+  # Jeśli będziemy robili pusha z tych branchy, to odpalą się test
   push:
     branches: [ main, master, ci-demo ]
   # Jeśli będziemy robili pull request na tym branchu, odpalą się testy
